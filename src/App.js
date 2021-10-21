@@ -1,90 +1,15 @@
+import Sidebar from "./components/sidebar/Sidebar";
 import Topbar from "./components/topbar/Topbar";
+import "./App.css"
 
 function App() {
   return (
     <div>
         <Topbar/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
-        teste<br/>
+        <div className="container">
+          <Sidebar/>
+          <div className="others">Other Page</div>
+        </div>
     </div>
   );
 }
