@@ -1,3 +1,15 @@
+<<<<<<< HEAD
 .container{
     display: flex;
 }
+=======
+.container{
+    display: flex;
+}
+
+.others{
+    flex: 4;
+    background-color: #211F20;
+    color: white;
+}
+>>>>>>> ce5a671894f37aee6ede00bf2e76631e118d4943
