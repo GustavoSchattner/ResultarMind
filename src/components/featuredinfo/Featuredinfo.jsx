@@ -6,10 +6,26 @@ export default function Featuredinfo() {
     return (
         <div className="featured">
             <div className="featuredItem">
-                <span className="featuredTitle">Batata</span>
-                <div className="featuredMoneyContainer">
-                    <span className="featuredMoney">R$45,00 dinheiros</span>
-                    <span className="featuredMoneyRate">-12,00 dinheiros<ArrowDownward/></span>
+                <span className="featuredTitle">Comercial Carvalho</span>
+                <div className="featuredMoneyContainer"><br />
+                    <span className="featuredMoney">R$4500,00 dinheiros</span><br />
+                    <span className="featuredMoneyRate">-120,00 dinheiros<ArrowDownward/></span>
+                </div>
+                <span className="featuredSub">Comparado ao Mês Anterior</span>
+            </div>
+            <div className="featuredItem">
+                <span className="featuredTitle">Comercial Carvalho</span>
+                <div className="featuredMoneyContainer"><br />
+                    <span className="featuredMoney">R$4500,00 dinheiros</span><br />
+                    <span className="featuredMoneyRate">-120,00 dinheiros<ArrowDownward/></span>
+                </div>
+                <span className="featuredSub">Comparado ao Mês Anterior</span>
+            </div>
+            <div className="featuredItem">
+                <span className="featuredTitle">Comercial Carvalho</span>
+                <div className="featuredMoneyContainer"><br />
+                    <span className="featuredMoney">R$4500,00 dinheiros</span><br />
+                    <span className="featuredMoneyRate">-120,00 dinheiros<ArrowDownward/></span>
                 </div>
                 <span className="featuredSub">Comparado ao Mês Anterior</span>
             </div>

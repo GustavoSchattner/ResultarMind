@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-import React from 'react'
+import React from "react"
 import "./Sidebar.css"
 import {LineStyle, Timeline, Work, TrendingUp, Person, Store, Report, AttachMoney, BarChart, Email, DynamicFeed, Message} from "@material-ui/icons"
 
@@ -81,48 +80,3 @@ export default function Sidebar() {
         </div>
     )
 }
-=======
-import React from 'react'
-import "./Sidebar.css"
-import {LineStyle, Timeline, TrendingUp} from "@material-ui/icons"
-
-export default function Sidebar() {
-    return (
-        <div className="sidebar">
-            <div className="sidebarWrapper">
-                <div className="sidebarMenu">
-                    <div className="sidebarTitle">Dashboard</div>
-                    <ul className="sidebarList">
-                        <li className="sidebarListItem active">
-                            <LineStyle/>
-                            Home
-                        </li>
-                        <li className="sidebarListItem active">
-                            <Timeline/>
-                            Analytics
-                        </li>
-                        <li className="sidebarListItem active">
-                            <TrendingUp/>
-                            Sales
-                        </li>
-                    </ul>
-                    <ul className="sidebarList">
-                        <li className="sidebarListItem active">
-                            <LineStyle/>
-                            Home
-                        </li>
-                        <li className="sidebarListItem active">
-                            <Timeline/>
-                            Analytics
-                        </li>
-                        <li className="sidebarListItem active">
-                            <TrendingUp/>
-                            Sales
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    )
-}
->>>>>>> ce5a671894f37aee6ede00bf2e76631e118d4943
