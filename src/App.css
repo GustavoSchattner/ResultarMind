@@ -11,3 +11,6 @@
     background-color: #211F20;
     color: white;
 }
+.container{
+    display: flex;
+}

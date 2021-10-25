@@ -5,14 +5,14 @@ li{
 .sidebar{
     left:0;
     height: calc(100vh - 50px);
-    background-color: #1f1d1e;
+    background-color: #515151;
     position: sticky;
     top: 50px;
 }
 
 .sidebarWrapper{
     padding: 5px;
-    color: goldenrod;
+    color: rgb(219, 177, 71);
 }
 
 .sidebarMenu{
@@ -21,7 +21,7 @@ li{
 
 .sidebarTitle{
     font-size: 13px;
-    color: goldenrod;
+    color: rgb(219, 177, 71);
     font-weight: bold;
 }
 
@@ -39,7 +39,7 @@ li{
 }
 
 .sidebarIcon{
-    color: goldenrod;
+    color: rgb(219, 177, 71);
     margin-right: 5px;
     font-size: 20px !important;
 }
@@ -55,14 +55,14 @@ li{
 .sidebar{
     flex: 1;
     height: calc(100vh - 50px);
-    background-color: #1f1d1e;
+    background-color: #393632;
     position: sticky;
     top: 50px;
 }
 
 .sidebarWrapper{
     padding: 20px;
-    color: white;
+    color: rgb(219, 177, 71);
 }
 
 .sidebarMenu{
