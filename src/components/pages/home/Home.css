@@ -3,9 +3,11 @@
     flex: 6;
     background-color: #f0eeee ;
     width: 100%;
+    overflow: scroll;
 }
 
 .homeWidgets{
     display: flex;
     margin: 20px;
+    width: 100%;
 }

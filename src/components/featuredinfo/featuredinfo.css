@@ -10,8 +10,8 @@
     padding: 30px;
     border-radius: 10px;
     cursor: pointer;
-    -webkit-box-shadow: 0px 0px 11px -1px #000000; 
-    box-shadow: 0px 0px 11px -1px #000000;
+    -webkit-box-shadow: 0px 0px 15px -10px #000000; 
+    box-shadow: 0px 0px 15px -10px #000000;
 
 }
 
@@ -49,4 +49,41 @@
 .featuredSub{
     font-size: 15px;
     color: gray;
+}
+
+@media screen and (max-width: 1170px) {
+    .featuredItem{
+        width: 25%;
+        margin: 5px 10px;
+        padding: 15px;
+        display: block;
+	}
+
+    .featuredMoney{
+        font-size: 20px;
+        font-weight: 600;
+        display: block;
+    }
+    .featuredMoneyRate{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .featuredItem{
+        width: 25%;
+        margin: 5px 10px;
+        padding: 7px;
+	}
+    .featuredMoney{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .featuredMoneyRate{
+        font-size: 15px;
+    }
+    .featuredMoneyContainer{
+        display: flex;
+        flex-direction: column;
+    }
 }
